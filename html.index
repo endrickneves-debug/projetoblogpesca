@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do Endrick - Blog de Pesca</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: #1a5276;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-style: italic;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        /* Área de Postagens */
+        main {
+            flex: 3;
+            min-width: 300px;
+        }
+
+        article {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            color: #1a5276;
+            margin-top: 0;
+        }
+
+        /* Barra Lateral (Perfil) */
+        aside {
+            flex: 1;
+            min-width: 250px;
+            background: #2e4053;
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            height: fit-content;
+        }
+
+        aside h3 {
+            border-bottom: 2px solid #5d6d7e;
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #111;
+            color: #777;
+            text-align: center;
+            padding: 1.5rem 1rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho do Blog -->
+    <header>
+        <h1>Mundo da Pesca</h1>
+        <p>Dicas, histórias e técnicas do esporte por Endrick</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        
+        <!-- Feed de Notícias/Artigos -->
+        <main>
+            <!-- Artigo 1: História -->
+            <article>
+                <h2>A História da Pesca: Da Sobrevivência ao Lazer</h2>
+                <p>A pesca é uma das atividades mais antigas da humanidade. Muito antes de se tornar um hobby ou esporte, ela era uma questão vital de sobrevivência. Evidências arqueológicas mostram que nossos ancestrais já usavam anzóis feitos de ossos de animais e conchas há milhares de anos.</p>
+                <p>Com o passar dos séculos, a atividade evoluiu. Os egípcios antigos desenvolveram redes e cestos trançados, enquanto os romanos popularizaram a pesca como comércio. Hoje, a tecnologia transformou a prática com carretilhas avançadas, linhas de multifilamento e barcos equipados com sonares, mas a essência de conexão com a natureza continua a mesma.</p>
+            </article>
+
+            <!-- Artigo 2: Pesca Esportiva -->
+            <article>
+                <h2>O Fascínio da Pesca Esportiva: Pesque e Solte</h2>
+                <p>Diferente da pesca comercial ou de subsistência, a pesca esportiva tem como principal objetivo o desafio e o prazer de fisgar o peixe, respeitando sempre a vida marinha ou de água doce. O grande lema dessa modalidade é o <strong>"Pesque e Solte"</strong>.</p>
+                <p>Nessa prática, o pescador utiliza anzóis sem farpa (para não machucar o animal) e devolve o peixe rapidamente à água após a captura e, claro, a famosa foto. Essa atitude garante a preservação das espécies e mantém os rios e mares povoados para as próximas gerações.</p>
+            </article>
+
+            <!-- Artigo 3: Equipamentos -->
+            <article>
+                <h2>Artigos de Pesca: O que não pode faltar na sua caixa</h2>
+                <p>Para quem está começando, o excesso de opções de equipamentos pode assustar. Porém, montar um kit básico e eficiente é mais simples do que parece. Aqui estão os itens essenciais para a sua jornada:</p>
+                <ul>
+                    <li><strong>Vara e Molinete/Carretilha:</strong> Devem ser escolhidos de acordo com o peso do peixe que você busca.</li>
+                    <li><strong>Linhas:</strong> As de nylon são ótimas para iniciantes por serem baratas; as de multifilamento oferecem mais resistência e sensibilidade.</li>
+                    <li><strong>Iscas Artificiais vs. Naturais:</strong> Iscas vivas (como minhocas e lambaris) funcionam quase sempre, mas as artificiais (plugs e jigs) dão uma emoção extra ao esporte.</li>
+                </ul>
+            </article>
+        </main>
+
+        <!-- Barra Lateral com as suas Informações -->
+        <aside>
+            <h3>Sobre o Autor</h3>
+            <p>Olá! Meu nome é <strong>Endrick</strong>.</p>
+            <p>Tenho 16 anos e sou estudante do 1º ano do Ensino Médio no <strong>Colégio Maria Luiza</strong>.</p>
+            <p>Criei este blog para compartilhar minha paixão pelo mundo da pesca, combinando o que aprendo na escola com o meu hobby favorito.</p>
+        </aside>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Blog de Pesca do Endrick. Desenvolvido para o Colégio Maria Luiza.</p>
+    </footer>
+
+</body>
+</html>
